@@ -1,5 +1,5 @@
 import React from "react";
-import Comment from "../parts/Comment";
+import Comments from "../parts/Comments";
 import PostDesc from "../parts/PostDesc";
 import Header from "../parts/Header";
 import Footer from "../parts/Footer";
@@ -10,7 +10,7 @@ const SinglePost = () => {
       <Header />
       <div className="single-post no-sidebar">
         <PostDesc />
-        <Comment />
+        <Comments />
       </div>
       <Footer />
     </>

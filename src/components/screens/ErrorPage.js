@@ -7,10 +7,9 @@ const Error = () => {
   return (
     <>
       <Header />
-
-      <section class="error-section">
-        <div class="container">
-          <div class="error-box">
+      <section className="error-section">
+        <div className="container">
+          <div className="error-box">
             <h1>404</h1>
             <h2>Page Not Found</h2>
             <p>

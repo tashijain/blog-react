@@ -1,6 +1,6 @@
 import React from "react";
 import SidebarSocialIcon from "./SidebarSocialIcon";
-import SidebarTitle from "./SidebarTitle";
+import Title from "./Title";
 import SidebarLatestStory from "./SidebarLatestStory";
 import SidebarCategory from "./SidebarCategory";
 
@@ -29,7 +29,7 @@ const Sidebar = () => {
         </div>
 
         <div className="widget category-widget">
-          <SidebarTitle title="Categories" />
+          <Title title="Categories" />
           <ul className="category-list">
             <SidebarCategory category="Travel" num="8" />
             <SidebarCategory category="Tech" num="5" />
@@ -38,7 +38,7 @@ const Sidebar = () => {
         </div>
 
         <div className="widget list-widget">
-          <SidebarTitle title="Latest Stories" />
+          <Title title="Latest Stories" />
           <ul className="list-posts">
             <SidebarLatestStory
               type="Food"
