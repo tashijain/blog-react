@@ -1,12 +1,13 @@
 import React from "react";
+import PostCategory from "./PostCategory";
+import RelatedPosts from "./RelatedPosts";
+import SocialIcon from "./SocialIcon";
 
 const PostDesc = () => {
   return (
     <>
       <div className="title-single-post">
-        <a className="text-link" href="/#">
-          Lifestyle
-        </a>
+        <PostCategory type="Nature" />
         <h1>Vivamus vestibulum ntulla necante.</h1>
         <ul className="post-tags">
           <li>1 week ago</li>
@@ -21,21 +22,9 @@ const PostDesc = () => {
           <div className="post-social">
             <span>Share</span>
             <ul className="share-post">
-              <li>
-                <a href="/#" className="facebook">
-                  <i className="fa fa-facebook"></i>
-                </a>
-              </li>
-              <li>
-                <a href="/#" className="twitter">
-                  <i className="fa fa-twitter"></i>
-                </a>
-              </li>
-              <li>
-                <a href="/#" className="pinterest">
-                  <i className="fa fa-pinterest"></i>
-                </a>
-              </li>
+              <SocialIcon nameForA="facebook" nameForClass="fa fa-facebook" />
+              <SocialIcon nameForA="twitter" nameForClass="fa fa-twitter" />
+              <SocialIcon nameForA="pinterest" nameForClass="fa fa-pinterest" />
             </ul>
           </div>
           <div className="post-content-text">
@@ -119,33 +108,34 @@ const PostDesc = () => {
                 </li>
               </ul>
               <ul className="shares-likes">
-                <li>
-                  <a href="/#" className="likes">
-                    Like <i className="fa fa-heart-o"></i> 14
-                  </a>
-                </li>
-                <li>
-                  <a href="/#" className="facebook">
-                    <i className="fa fa-facebook"></i> 23
-                  </a>
-                </li>
-                <li>
-                  <a href="/#" className="twitter">
-                    <i className="fa fa-twitter"></i> 5
-                  </a>
-                </li>
-                <li>
-                  <a href="/#" className="pinterest">
-                    <i className="fa fa-pinterest"></i> 2
-                  </a>
-                </li>
+                <SocialIcon
+                  text="Like"
+                  nameForA="likes"
+                  nameForClass="fa fa-heart-o"
+                  number="14"
+                />
+                <SocialIcon
+                  nameForA="facebook"
+                  nameForClass="fa fa-facebook"
+                  number="23"
+                />
+                <SocialIcon
+                  nameForA="twitter"
+                  nameForClass="fa fa-twitter"
+                  number="5"
+                />
+                <SocialIcon
+                  nameForA="pinterest"
+                  nameForClass="fa fa-pinterest"
+                  number="2"
+                />
               </ul>
             </div>
           </div>
         </div>
         <div className="prev-next-box">
           <div className="prev-box">
-            <a className="text-link" href="single-post.html">
+            <a className="text-link" href="/#">
               <i className="fa fa-angle-left"></i> Previous Post
             </a>
             <h2>
@@ -153,7 +143,7 @@ const PostDesc = () => {
             </h2>
           </div>
           <div className="next-box">
-            <a className="text-link next-link" href="single-post.html">
+            <a className="text-link next-link" href="/#">
               Next Post <i className="fa fa-angle-right"></i>
             </a>
             <h2>
@@ -161,74 +151,7 @@ const PostDesc = () => {
             </h2>
           </div>
         </div>
-        <div className="related-box">
-          <h2>Related Posts</h2>
-          <div className="row">
-            <div className="col-lg-4 col-md-4">
-              <div className="news-post standard-post text-left">
-                <div className="image-holder">
-                  <a href="single-post.html">
-                    <img src="upload/blog/p1.jpg" alt="" />
-                  </a>
-                </div>
-                <a className="text-link" href="/#">
-                  Food
-                </a>
-                <h2>
-                  <a href="single-post.html">Fusce pellentesque suscipit.</a>
-                </h2>
-                <ul className="post-tags">
-                  <li>
-                    by <a href="/#">Stan Enemy</a>
-                  </li>
-                  <li>3 days ago</li>
-                </ul>
-              </div>
-            </div>
-            <div className="col-lg-4 col-md-4">
-              <div className="news-post standard-post text-left">
-                <div className="image-holder">
-                  <a href="single-post.html">
-                    <img src="upload/blog/p2.jpg" alt="" />
-                  </a>
-                </div>
-                <a className="text-link" href="/#">
-                  Lifestyle
-                </a>
-                <h2>
-                  <a href="single-post.html">Quisque a lectus. </a>
-                </h2>
-                <ul className="post-tags">
-                  <li>
-                    by <a href="/#">Stan Enemy</a>
-                  </li>
-                  <li>3 days ago</li>
-                </ul>
-              </div>
-            </div>
-            <div className="col-lg-4 col-md-4">
-              <div className="news-post standard-post text-left">
-                <div className="image-holder">
-                  <a href="single-post.html">
-                    <img src="upload/blog/p3.jpg" alt="" />
-                  </a>
-                </div>
-                <a className="text-link" href="/#">
-                  Travel
-                </a>
-                <h2>
-                  <a href="single-post.html">Vestibulum commodo tortor.</a>
-                </h2>
-                <ul className="post-tags">
-                  <li>
-                    by <a href="/#">Stan Enemy</a>
-                  </li>
-                  <li>3 days ago</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
+        <RelatedPosts />
       </div>
     </>
   );

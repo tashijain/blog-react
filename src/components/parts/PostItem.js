@@ -1,4 +1,5 @@
 import React from "react";
+import PostCategory from "./PostCategory";
 
 const PostItem = ({ image, name, num, days, dishName, desc, type }) => {
   return (
@@ -10,9 +11,7 @@ const PostItem = ({ image, name, num, days, dishName, desc, type }) => {
           </div>
         </div>
         <div className="col-md-6">
-          <a className="text-link" href="/#">
-            {type}
-          </a>
+          <PostCategory type={type} />
           <h2>
             <a href="/#">{dishName}</a>
           </h2>
