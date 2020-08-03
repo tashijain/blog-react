@@ -7,17 +7,17 @@ const PostDesc = () => {
   return (
     <>
       <div className="title-single-post">
-        <PostCategory type="Nature" />
-        <h1>Vivamus vestibulum ntulla necante.</h1>
+        <PostCategory type="Technology" />
+        <h1>Canadian Undergrad tech Conference</h1>
         <ul className="post-tags">
           <li>1 week ago</li>
           <li>
-            <a href="/#">3 comments</a>
+            <a href="/#">12 comments</a>
           </li>
         </ul>
       </div>
       <div className="single-post-content">
-        <img src="upload/single/4.jpg" alt="" />
+        <img src="images/cutc.png" alt="" />
         <div className="post-content">
           <div className="post-social">
             <span>Share</span>
@@ -29,71 +29,77 @@ const PostDesc = () => {
           </div>
           <div className="post-content-text">
             <p>
-              Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-              Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi
-              neque, aliquet vel, dapibus id, mattis vel, nisi. Sed pretium,
-              ligula <a href="/#">sollicitudin laoreet viverra</a>, tortor
-              libero sodales leo, eget blandit nunc tortor eu nibh. Nullam
-              mollis. Ut justo. Suspendisse potenti.
+              Welcome to the world of virtual conferences! What’s better than to
+              attend Canada’s largest and longest-running student-organized
+              conference from the comforts of my home without any travel and
+              accommodation hassles.
             </p>
             <p>
-              Sed egestas, ante et vulputate volutpat, eros pede semper est,
-              vitae luctus metus libero eu augue. Morbi purus libero, faucibus
-              adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent{" "}
-              <a href="/#">elementum hendrerit </a> tortor. Sed semper lorem at
-              felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque
-              euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede
-              arcu, dapibus eu, fermentum et, dapibus sed, urna.
+              As a student in tech, I have attended a number of tech conferences
+              in the States, but never knew we had such a good one right here in
+              Canada! And, trust me this one’s worth attending. Listening to
+              such honest, candid, and enthralling conversations from amazing
+              individuals from such diverse backgrounds has been priceless.
             </p>
             <blockquote>
-              “ Morbi in sem quis dui placerat ornare. Pellentesque odio nisi,
-              euismod in, pharetra a, ultricies in, diam. Sed arcu. Cras
-              consequat. ”
+              “ When you’re not good at something, you start to love it.”
             </blockquote>
             <p>
-              Praesent elementum hendrerit tortor. Sed semper lorem at felis.
-              Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod
-              dui, eu <a href="/#">pulvinar nunc sapien</a> ornare nisl.
-              Phasellus pede arcu, dapibus eu, fermentum et, dapibus sed, urna.
+              This advice stood out to me quite a bit, since when you’re not
+              good at something you really start enjoying the process of
+              learning more about it. The happiness you get after achieving that
+              seemingly impossible task is unmatchable.
             </p>
-            <h3>Nulla vitae mauris non felis mollis faucibus.</h3>
+            <h3>Life After Uni Panel</h3>
             <p>
-              Morbi interdum mollis sapien. Sed ac risus. Phasellus lacinia,
-              magna a ullamcorper laoreet, lectus arcu pulvinar risus, vitae
-              facilisis libero dolor a purus. Sed vel lacus. Mauris nibh felis,{" "}
-              <a href="/#">adipiscing varius </a>, adipiscing in, lacinia vel,
-              tellus. Suspendisse ac urna. Etiam pellentesque mauris ut lectus.
-              Nunc tellus ante, mattis eget, gravida vitae, ultricies ac, leo.
-              Integer leo pede, ornare a, lacinia eu, vulputate vel, nisl.
+              Imposter syndrome is usually just a result of misaligned
+              expectations you have and you think your colleagues have from you.
+              Best way to overcome it is to talk it out, ask for feedback, trust
+              in yourself, and stay grounded. With everything moving online,
+              it’s more important than ever to show your enthusiasm and
+              authenticity the right way. Be proactive, research the other
+              person/company you’re talking to, and start the conversation on
+              the right note. To create connections, don’t just branch out wide
+              and create aimless connections, follow-up, and invest in existing
+              ones too.
             </p>
             <div className="image-alt-box">
               <div className="image-holder">
-                <img src="upload/single/2.jpg" alt="" />
-                <span>Nulla sed leo.</span>
+                <img src="images/cutc3.png" height="100%" alt="" />
+                <span>CUTC Reconnect 2020</span>
               </div>
               <div className="image-holder">
-                <img src="upload/single/3.jpg" alt="" />
-                <span>Fusce lacinia arcu et nulla.</span>
+                <img src="images/cutc4.png" height="100%" alt="" />
+                <span>Conference Day 2020</span>
               </div>
             </div>
             <p>
-              Phasellus lacinia, magna a ullamcorper laoreet, lectus arcu
-              pulvinar risus, vitae facilisis libero dolor a purus. Sed vel
-              lacus. Mauris nibh felis, adipiscing varius, adipiscing in,
-              lacinia vel, tellus. Suspendisse ac urna. Etiam pellentesque
-              mauris ut lectus. Nunc tellus ante, mattis eget, gravida vitae,
-              ultricies ac, leo. Integer leo pede, ornare a, lacinia eu,
-              vulputate vel, nisl.
+              The most crucial part of any conference. Being a virtual
+              experience, this is the area where things start to feel
+              challenging. I need to connect. Okay. But how do I establish a
+              rapport virtually? How do I even “meet” people? Well easy, start
+              looking for ways to do it virtually! What more, that awkward
+              moment where you forget the person’s name, can’t ask it again,
+              forgot to note down? That will not happen with every detail right
+              on your screen. Join the Discord/Slack channels, connect with
+              people you relate to over LinkedIn. Don’t just accept or send
+              connection requests. Actually talk to people. Use the networking
+              spaces on Hopin to randomly meet people. Grab the opportunity to
+              connect to the panelists, speakers, and fellow attendees right at
+              the moment. I met some amazing people by just taking that
+              initiative to connect. There is something to learn from every
+              single person, so talk, make friends and enjoy the ride.
             </p>
 
             <p>
-              Suspendisse mauris. Fusce accumsan mollis eros. Pellentesque a
-              diam sit amet mi ullam corper vehicula. Integer adipiscing risus a
-              sem. Nullam quis massa sit amet nibh viverra malesuada. Nunc sem
-              lacus, accumsan quis, faucibus non, congue vel, arcu. Ut
-              scelerisque hendrerit tellus. Integer sagittis. Vivamus a mauris
-              eget arcu gravida tristique. Nunc iaculis mi in ante. Vivamus
-              imperdiet nibh feugiat est.
+              That’s about it! Being a virtual conference this year my
+              experience would be way different than someone who attended it
+              in-person, but at the end of the day, opportunities are what you
+              make of them. I miss travelling to places to attend such
+              conferences too but this has been a new experience altogether.
+              Looking forward to (hopefully) an in-person CUTC 2021. Till then,
+              let me know if you have any questions or want to chat more about
+              it!
             </p>
             <div className="share-tags-box">
               <ul className="tags">
@@ -139,7 +145,7 @@ const PostDesc = () => {
               <i className="fa fa-angle-left"></i> Previous Post
             </a>
             <h2>
-              <a href="single-post.html">Sed adipiscing ornare risus.</a>
+              <a href="single-post.html">Canadian Conferences</a>
             </h2>
           </div>
           <div className="next-box">
@@ -147,7 +153,7 @@ const PostDesc = () => {
               Next Post <i className="fa fa-angle-right"></i>
             </a>
             <h2>
-              <a href="single-post.html">Quisque a lectus.</a>
+              <a href="single-post.html">Tech conferences</a>
             </h2>
           </div>
         </div>

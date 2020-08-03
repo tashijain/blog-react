@@ -1,4 +1,5 @@
 import React from "react";
+import FreshStory from "./FreshStory";
 
 const FreshStories = () => {
   return (
@@ -9,107 +10,40 @@ const FreshStories = () => {
         </div>
         <div className="fresh-box owl-wrapper">
           <div className="owl-carousel" data-num="2">
-            <div className="item">
-              <div className="news-post article-post">
-                <div className="image-holder">
-                  <img src="upload/blog/home5/a2.jpg" alt="" />
-                </div>
-                <a className="text-link" href="/#">
-                  Travel
-                </a>
-                <h2>
-                  <a href="single-post.html">
-                    Vivamus vestibulum ntulla necante.
-                  </a>
-                </h2>
-                <ul className="post-tags">
-                  <li>3 days ago</li>
-                  <li>
-                    <a href="/#">3 comments</a>
-                  </li>
-                  <li>
-                    by <a href="/#">John Smith</a>
-                  </li>
-                </ul>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                  Donec odio. Quisque volutpat mattis eros. Nullam malesuada
-                  erat ut turpis. Suspendisse urna viverra donec nec justo eget
-                  felis facilisis fermentum ...{" "}
-                </p>
-                <a className="text-link" href="single-post.html">
-                  Read More
-                </a>
-              </div>
-            </div>
-
-            <div className="item">
-              <div className="news-post article-post">
-                <div className="image-holder">
-                  <img src="upload/blog/home5/a3.jpg" alt="" />
-                </div>
-                <a className="text-link" href="/#">
-                  Food
-                </a>
-                <h2>
-                  <a href="single-post.html">
-                    Praesent placerat risus quis eros.
-                  </a>
-                </h2>
-                <ul className="post-tags">
-                  <li>3 days ago</li>
-                  <li>
-                    <a href="/#">3 comments</a>
-                  </li>
-                  <li>
-                    by <a href="/#">John Smith</a>
-                  </li>
-                </ul>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                  Donec odio. Quisque volutpat mattis eros. Nullam malesuada
-                  erat ut turpis. Suspendisse urna viverra donec nec justo eget
-                  felis facilisis fermentum ...{" "}
-                </p>
-                <a className="text-link" href="single-post.html">
-                  Read More
-                </a>
-              </div>
-            </div>
-
-            <div className="item">
-              <div className="news-post article-post">
-                <div className="image-holder">
-                  <img src="upload/blog/home5/a4.jpg" alt="" />
-                </div>
-                <a className="text-link" href="/#">
-                  Food
-                </a>
-                <h2>
-                  <a href="single-post.html">
-                    Morbi in sem quisdui placerat ornare.
-                  </a>
-                </h2>
-                <ul className="post-tags">
-                  <li>3 days ago</li>
-                  <li>
-                    <a href="/#">3 comments</a>
-                  </li>
-                  <li>
-                    by <a href="/#">John Smith</a>
-                  </li>
-                </ul>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                  Donec odio. Quisque volutpat mattis eros. Nullam malesuada
-                  erat ut turpis. Suspendisse urna viverra donec nec justo eget
-                  felis facilisis fermentum ...{" "}
-                </p>
-                <a className="text-link" href="single-post.html">
-                  Read More
-                </a>
-              </div>
-            </div>
+            <FreshStory
+              image="upload/blog/home5/a2.jpg"
+              days="2"
+              title="Will travelling be back in the new-normal?"
+              comments="4"
+              author="John Smith"
+              desc="The pandemic definitely ruined the summer plans for tons of people. 
+              With summer being the only season for getaway, with beautiful weather 
+              and water retreats, people find themselves trapped in the confines of their home"
+              type="Travel"
+            />
+            <FreshStory
+              image="upload/blog/home5/a3.jpg"
+              days="2"
+              title="Life during a pandemic - Treat your tastebuds"
+              comments="4"
+              author="Jake D."
+              desc="The pandemic has forced people to stay at home for the protection of 
+              the entire living race. With the given transition to being at home all day long, people
+              have turned to spending quality time with their families, with majority time spent in the kitchen
+              trying out new dishes"
+              type="Food"
+            />
+            <FreshStory
+              image="upload/blog/home5/a4.jpg"
+              days="3"
+              title="The essense of food plate decoration"
+              comments="4"
+              author="Jonathan M."
+              desc="As much as we human beings love food, we are always very visual creatures.
+              Hence anything that appears to our aesthetics make us wanting to try it out. 
+              Food plate decoration targets this sense of aesthetics to please customers."
+              type="Lifestyle"
+            />
           </div>
         </div>
       </div>

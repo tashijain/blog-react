@@ -10,23 +10,15 @@ const Comments = () => {
         <ul className="comments__list">
           <Comment
             personName="Philip W."
-            date="March 3, 2020"
+            date="July 10, 2020"
             imgUrl="upload/single/th2.jpg"
-            desc="Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi
-                neque, aliquet vel, dapibus id, mattis vel, nisi. Sed pretium,
-                ligula sollicitudin laoreet viverra, tortor libero sodales leo,
-                eget blandit nunc tortor eu nibh. Nullam mollis. Ut justo.
-                Suspendisse potenti."
+            desc="Amazing article! Really helped me feel like I was present in the conference."
           />
           <Comment
             personName="Jacob A."
-            date="June 7, 2020"
+            date="July 7, 2020"
             imgUrl="upload/single/th1.jpg"
-            desc="Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi
-                neque, aliquet vel, dapibus id, mattis vel, nisi. Sed pretium,
-                ligula sollicitudin laoreet viverra, tortor libero sodales leo,
-                eget blandit nunc tortor eu nibh. Nullam mollis. Ut justo.
-                Suspendisse potenti."
+            desc="Way to go! Superb article, loved reading it!"
           />
         </ul>
       </div>

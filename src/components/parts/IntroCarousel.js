@@ -10,18 +10,18 @@ const IntroCarousel = () => {
             <CarouselElement
               image="upload/blog/home5/sl1.jpg"
               type="Travel"
-              title="Integer vitae libero acrisus egestas."
+              title="Summer is Here : What to Explore?"
               comments="4"
               days="2"
-              author="Eva H."
+              author="Prashant D."
             />
             <CarouselElement
               image="upload/blog/home5/sl2.jpg"
               type="Lifestyle"
-              title="Praesent placerat risus quis eros."
+              title="Best locations for photoshoots this summer"
               comments="3"
               days="3"
-              author="John Smith"
+              author="Kansas F."
             />
           </div>
         </div>

@@ -15,10 +15,10 @@ const TrendingPosts = () => {
                 <img src="upload/blog/home5/a1.jpg" alt="" />
                 <div className="hover-post">
                   <a className="category-link" href="/#">
-                    Lifestyle
+                    Travel
                   </a>
                   <h2>
-                    <a href="single-post.html">Praesent placerat quiseros.</a>
+                    <a href="single-post.html">Discover Yourself in Nature</a>
                   </h2>
                   <ul className="post-tags">
                     <li>3 days ago</li>
@@ -35,21 +35,21 @@ const TrendingPosts = () => {
                 <div className="col-md-6">
                   <div className="news-post standard-post left-align">
                     <RelatedPost
-                      type="food"
-                      image="upload/blog/home2/m4.jpg"
-                      title="Aliquam tincidunt mauriseu"
-                      author="Stan Enemy"
-                      days="2"
+                      type="travel"
+                      image="upload/blog/home2/l8.jpg"
+                      title="Solo Travelling"
+                      author="Annie L."
+                      days="5"
                     />
                   </div>
                 </div>
                 <div className="col-md-6">
                   <div className="news-post standard-post left-align">
                     <RelatedPost
-                      type="lifestyle"
-                      image="upload/blog/home2/m5.jpg"
-                      title="Aliquam tincidunt mauriseu"
-                      author="Stan Enemy"
+                      type="travel"
+                      image="upload/blog/home2/l3.jpg"
+                      title="Peace in Life"
+                      author="Sam J."
                       days="2"
                     />
                   </div>
@@ -62,9 +62,9 @@ const TrendingPosts = () => {
                     <RelatedPost
                       type="food"
                       image="upload/blog/home2/m6.jpg"
-                      title="Aliquam tincidunt mauriseu"
-                      author="Stan Enemy"
-                      days="2"
+                      title="Best Grilled cheese"
+                      author="Stan E."
+                      days="4"
                     />
                   </div>
                 </div>
@@ -73,9 +73,9 @@ const TrendingPosts = () => {
                     <RelatedPost
                       type="lifestyle"
                       image="upload/blog/home2/m7.jpg"
-                      title="Aliquam tincidunt mauriseu"
-                      author="Stan Enemy"
-                      days="2"
+                      title="Movie night"
+                      author="Elle E."
+                      days="3"
                     />
                   </div>
                 </div>
