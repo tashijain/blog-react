@@ -1,5 +1,6 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import NavbarElement from "./NavbarElement";
+import SocialIcon from "./SocialIcon";
 
 const Navbar = () => {
   return (
@@ -25,37 +26,17 @@ const Navbar = () => {
             <input type="search" placeholder="Search:" />
           </form>
           <ul className="navbar-nav m-auto">
-            <li>
-              <Link to="/">Home</Link>
-            </li>
-            <li>
-              <Link to="/category">All Posts</Link>
-            </li>
-            <li>
-              <Link to="/singlepost">Category Name 1</Link>
-            </li>
+            <NavbarElement title="Home" linkTo="/" />
+            <NavbarElement title="All Posts" linkTo="/category" />
+            <NavbarElement title="Tech" linkTo="/singlepost" />
+            <NavbarElement title="Travel" linkTo="/singlepost" />
+            <NavbarElement title="Nature" linkTo="/singlepost" />
           </ul>
           <ul className="navbar-nav ml-auto social-list">
-            <li>
-              <a href="/#">
-                <i className="fa fa-github fa-lg"></i>
-              </a>
-            </li>
-            <li>
-              <a href="/#">
-                <i className="fa fa-linkedin fa-lg"></i>
-              </a>
-            </li>
-            <li>
-              <a href="/#">
-                <i className="fa fa-facebook fa-lg"></i>
-              </a>
-            </li>
-            <li>
-              <a href="/#">
-                <i className="fa fa-instagram fa-lg"></i>
-              </a>
-            </li>
+            <SocialIcon nameForClass="fa fa-github fa-lg" />
+            <SocialIcon nameForClass="fa fa-linkedin fa-lg" />
+            <SocialIcon nameForClass="fa fa-facebook fa-lg" />
+            <SocialIcon nameForClass="fa fa-instagram fa-lg" />
           </ul>
         </div>
       </div>

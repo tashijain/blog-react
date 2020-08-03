@@ -1,4 +1,5 @@
 import React from "react";
+import SocialIcon from "./SocialIcon";
 
 const Footer = () => {
   return (
@@ -8,26 +9,10 @@ const Footer = () => {
           © Copyright 2020 - All rights reserved.
         </p>
         <ul className="social-list">
-          <li>
-            <a href="/#" target="_blank">
-              <i className="fa fa-github"></i>
-            </a>
-          </li>
-          <li>
-            <a href="/#" target="_blank">
-              <i className="fa fa-linkedin"></i>
-            </a>
-          </li>
-          <li>
-            <a href="/#" target="_blank">
-              <i className="fa fa-facebook"></i>
-            </a>
-          </li>
-          <li>
-            <a href="/#" target="_blank">
-              <i className="fa fa-instagram"></i>
-            </a>
-          </li>
+          <SocialIcon nameForClass="fa fa-github fa-lg" />
+          <SocialIcon nameForClass="fa fa-linkedin fa-lg" />
+          <SocialIcon nameForClass="fa fa-facebook fa-lg" />
+          <SocialIcon nameForClass="fa fa-instagram fa-lg" />
         </ul>
       </div>
     </footer>
