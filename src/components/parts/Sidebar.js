@@ -1,4 +1,8 @@
 import React from "react";
+import SidebarSocialIcon from "./SidebarSocialIcon";
+import SidebarTitle from "./SidebarTitle";
+import SidebarLatestStory from "./SidebarLatestStory";
+import SidebarCategory from "./SidebarCategory";
 
 const Sidebar = () => {
   return (
@@ -6,114 +10,66 @@ const Sidebar = () => {
       <div className="sidebar">
         <div className="widget social-widget">
           <ul className="social-list">
-            <li>
-              <a href="/#">
-                <i className="fa fa-facebook"></i>
-                facebook
-                <span>25k likes</span>
-              </a>
-            </li>
-            <li>
-              <a href="/#">
-                <i className="fa fa-twitter"></i>
-                twitter
-                <span>31k followers</span>
-              </a>
-            </li>
-            <li>
-              <a href="/#">
-                <i className="fa fa-instagram"></i>
-                instagram
-                <span>35k followers</span>
-              </a>
-            </li>
+            <SidebarSocialIcon
+              nameForClass="fa fa-facebook"
+              text="facebook"
+              likes="25"
+            />
+            <SidebarSocialIcon
+              nameForClass="fa fa-twitter"
+              text="twitter"
+              likes="31"
+            />
+            <SidebarSocialIcon
+              nameForClass="fa fa-instagram"
+              text="instagram"
+              likes="35"
+            />
           </ul>
         </div>
 
         <div className="widget category-widget">
-          <h2>Categories</h2>
+          <SidebarTitle title="Categories" />
           <ul className="category-list">
-            <li>
-              <a href="/#">
-                Travel <span>24</span>
-              </a>
-            </li>
-            <li>
-              <a href="/#">
-                Tech <span>16</span>
-              </a>
-            </li>
-            <li>
-              <a href="/#">
-                Food <span>8</span>
-              </a>
-            </li>
+            <SidebarCategory category="Travel" num="8" />
+            <SidebarCategory category="Tech" num="5" />
+            <SidebarCategory category="Nature" num="4" />
           </ul>
         </div>
 
         <div className="widget list-widget">
-          <h2>Latest Stories</h2>
+          <SidebarTitle title="Latest Stories" />
           <ul className="list-posts">
-            <li>
-              <a className="text-link" href="/#">
-                Food
-              </a>
-              <h2>
-                <a href="single-post.html">Breakfast Specialities.</a>
-              </h2>
-              <ul className="post-tags">
-                <li>2 days ago</li>
-                <li>
-                  <a href="/#">0 comments</a>
-                </li>
-              </ul>
-            </li>
-            <li>
-              <a className="text-link" href="/#">
-                Food
-              </a>
-              <h2>
-                <a href="single-post.html">
-                  Integer vitae libero ac risus egestas placerat.
-                </a>
-              </h2>
-              <ul className="post-tags">
-                <li>2 days ago</li>
-                <li>
-                  <a href="/#">3 comments</a>
-                </li>
-              </ul>
-            </li>
-            <li>
-              <a className="text-link" href="/#">
-                Lifestyle
-              </a>
-              <h2>
-                <a href="single-post.html">
-                  Vestibulum commodo felisquis tortor.
-                </a>
-              </h2>
-              <ul className="post-tags">
-                <li>4 days ago</li>
-                <li>
-                  <a href="/#">0 comments</a>
-                </li>
-              </ul>
-            </li>
-            <li>
-              <a className="text-link" href="/#">
-                Travel
-              </a>
-              <h2>
-                <a href="single-post.html">Quisque a lectus. </a>
-              </h2>
-              <ul className="post-tags">
-                <li>4 days ago</li>
-                <li>
-                  <a href="/#">0 comments</a>
-                </li>
-              </ul>
-            </li>
+            <SidebarLatestStory
+              type="Food"
+              title="Breakfast Specialities."
+              days="2"
+              comments="0"
+            />
+            <SidebarLatestStory
+              type="Travel"
+              title="Italy"
+              days="3"
+              comments="4"
+            />
+            <SidebarLatestStory
+              type="Food"
+              title="Lunch Specialities."
+              days="4"
+              comments="5"
+            />
+            <SidebarLatestStory
+              type="Tech"
+              title="Conferences"
+              days="5"
+              comments="6"
+            />
+            <SidebarLatestStory
+              type="Food"
+              title="Dinner Specialities."
+              days="3"
+              comments="2"
+            />
           </ul>
         </div>
       </div>
