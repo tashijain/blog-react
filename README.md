@@ -1,5 +1,7 @@
 # Tashi's Blog Website
 
+Check out the website at https://blogbytashi.netlify.app
+
 Blog Website(only client-side/front-end) converted from purely HTML and CSS to a fully functioning React application.
 
 ## Features
