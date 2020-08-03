@@ -1,4 +1,5 @@
 import React from "react";
+import CarouselElement from "./CarouselElement";
 
 const IntroCarousel = () => {
   return (
@@ -6,65 +7,22 @@ const IntroCarousel = () => {
       <div className="top-slider-box text-center">
         <div className="owl-wrapper">
           <div className="owl-carousel" data-num="1">
-            <div className="item">
-              <div className="news-post image-post">
-                <img src="upload/blog/home5/sl1.jpg" alt="" />
-                <div className="hover-post">
-                  <div>
-                    <a className="category-link" href="/#">
-                      Travel
-                    </a>
-                  </div>
-                  <h2>
-                    <a href="single-post.html">
-                      Integer vitae libero acrisus egestas.
-                    </a>
-                  </h2>
-                  <ul className="post-tags">
-                    <li>
-                      <a href="/#">3 comments</a>
-                    </li>
-                    <li>3 days ago</li>
-                    <li>
-                      by <a href="/#">John Smith</a>
-                    </li>
-                  </ul>
-                  <a className="white-button" href="single-post.html">
-                    View Post
-                  </a>
-                </div>
-              </div>
-            </div>
-
-            <div className="item">
-              <div className="news-post image-post">
-                <img src="upload/blog/home5/sl2.jpg" alt="" />
-                <div className="hover-post">
-                  <div>
-                    <a className="category-link" href="/#">
-                      Lifestyle
-                    </a>
-                  </div>
-                  <h2>
-                    <a href="single-post.html">
-                      Praesent placerat risus quis eros.
-                    </a>
-                  </h2>
-                  <ul className="post-tags">
-                    <li>
-                      <a href="/#">3 comments</a>
-                    </li>
-                    <li>3 days ago</li>
-                    <li>
-                      by <a href="/#">John Smith</a>
-                    </li>
-                  </ul>
-                  <a className="white-button" href="single-post.html">
-                    View Post
-                  </a>
-                </div>
-              </div>
-            </div>
+            <CarouselElement
+              image="upload/blog/home5/sl1.jpg"
+              type="Travel"
+              title="Integer vitae libero acrisus egestas."
+              comments="4"
+              days="2"
+              author="Eva H."
+            />
+            <CarouselElement
+              image="upload/blog/home5/sl2.jpg"
+              type="Lifestyle"
+              title="Praesent placerat risus quis eros."
+              comments="3"
+              days="3"
+              author="John Smith"
+            />
           </div>
         </div>
       </div>
