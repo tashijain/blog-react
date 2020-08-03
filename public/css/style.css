@@ -117,6 +117,23 @@ a,
 /*------------------------------------------------- */
 /* =  Header
  *------------------------------------------------- */
+
+.headerTitle {
+  padding: 20px;
+  text-align: center;
+  color: black;
+  font-family: "Dancing Script", cursive, sans-serif;
+  font-size: 50px;
+}
+
+.footerTitle {
+  padding: 20px;
+  text-align: center;
+  color: black;
+  font-family: "Dancing Script", cursive;
+  font-size: 50px;
+}
+
 header {
   background: transparent;
   z-index: 999999;
@@ -174,7 +191,7 @@ header .container {
   position: relative;
 }
 .navbar-nav > li > a i {
-  font-size: 13px;
+  font-size: 20px;
   margin-left: 6px;
 }
 .navbar-nav > li:last-child > a {
@@ -702,26 +719,29 @@ a.zoom {
 }
 
 section.page-banner-section {
-  padding: 50px 0 50px;
+  padding: 40px 0 40px;
   background-color: #fafafa;
 }
 section.page-banner-section h1 {
-  font-size: 24px;
+  font-size: 20px;
   margin-bottom: -6px;
+  font-family: "Dancing Script", cursive, sans-serif;
 }
 section.page-banner-section h1 span {
   color: #cccccc;
 }
 section.page-banner-section .container > span {
-  font-size: 10px;
+  font-size: 15px;
   color: #cccccc;
   text-transform: uppercase;
   font-family: "Roboto", sans-serif;
   letter-spacing: 0.6px;
+  margin-top: 30px;
+  font-family: "Dancing Script", cursive, sans-serif;
 }
 
 .pagination-box {
-  padding-top: 20px;
+  padding-top: 10px;
 }
 .pagination-box ul.pagination-list li {
   display: inline-block;

@@ -3,13 +3,11 @@ import Navbar from "./Navbar";
 
 const Header = () => {
   return (
-    <header classNameName="clearfix header-style5">
+    <header className="clearfix header-style5">
       <div className="logo-place">
         <div className="container">
           <div className="inner-logo-place">
-            <a className="navbar-brand" href="index.html">
-              <img src="images/logo.png" alt="" />
-            </a>
+            <h1 className="headerTitle">Tashi's Blog</h1>
           </div>
         </div>
       </div>

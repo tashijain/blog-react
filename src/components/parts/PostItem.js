@@ -1,35 +1,31 @@
 import React from "react";
 
-const PostItem = () => {
+const PostItem = ({ image, name, num, days, dishName, desc, type }) => {
   return (
     <div className="news-post article-post2">
       <div className="row">
         <div className="col-md-6">
           <div className="image-holder">
-            <img src="upload/blog/f1.jpg" alt="" />
+            <img src={image} alt="" />
           </div>
         </div>
         <div className="col-md-6">
-          <a className="text-link" href="#">
-            Food
+          <a className="text-link" href="/#">
+            {type}
           </a>
           <h2>
-            <a href="single-post.html">Nullam malesuada eratut turpis.</a>
+            <a href="/#">{dishName}</a>
           </h2>
           <ul className="post-tags">
-            <li>3 days ago</li>
+            <li>{days} days ago</li>
             <li>
-              <a href="#">3 comments</a>
+              <a href="/#">{num} comments</a>
             </li>
             <li>
-              by <a href="#">John Smith</a>
+              by <a href="/#">{name}</a>
             </li>
           </ul>
-          <p>
-            Praesent dapibus, neque id cursus faucibus, tortor neque egestas
-            auguae, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam
-            dui mi, tincidunt ...
-          </p>
+          <p>{desc}</p>
         </div>
       </div>
     </div>

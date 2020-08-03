@@ -17,7 +17,7 @@ const Comment = () => {
               <span class="comments__list-item-date">
                 Posted October 7, 2018
               </span>
-              <a class="comments__list-item-reply" href="#">
+              <a class="comments__list-item-reply" href="/#">
                 <i class="la la-mail-forward"></i>
                 Reply
               </a>
@@ -41,7 +41,7 @@ const Comment = () => {
               <span class="comments__list-item-date">
                 Posted October 7, 2018
               </span>
-              <a class="comments__list-item-reply" href="#">
+              <a class="comments__list-item-reply" href="/#">
                 <i class="la la-mail-forward"></i>
                 Reply
               </a>

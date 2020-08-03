@@ -11,7 +11,7 @@ const IntroCarousel = () => {
                 <img src="upload/blog/home5/sl1.jpg" alt="" />
                 <div className="hover-post">
                   <div>
-                    <a className="category-link" href="#">
+                    <a className="category-link" href="/#">
                       Travel
                     </a>
                   </div>
@@ -22,11 +22,11 @@ const IntroCarousel = () => {
                   </h2>
                   <ul className="post-tags">
                     <li>
-                      <a href="#">3 comments</a>
+                      <a href="/#">3 comments</a>
                     </li>
                     <li>3 days ago</li>
                     <li>
-                      by <a href="#">John Smith</a>
+                      by <a href="/#">John Smith</a>
                     </li>
                   </ul>
                   <a className="white-button" href="single-post.html">
@@ -41,7 +41,7 @@ const IntroCarousel = () => {
                 <img src="upload/blog/home5/sl2.jpg" alt="" />
                 <div className="hover-post">
                   <div>
-                    <a className="category-link" href="#">
+                    <a className="category-link" href="/#">
                       Lifestyle
                     </a>
                   </div>
@@ -52,11 +52,11 @@ const IntroCarousel = () => {
                   </h2>
                   <ul className="post-tags">
                     <li>
-                      <a href="#">3 comments</a>
+                      <a href="/#">3 comments</a>
                     </li>
                     <li>3 days ago</li>
                     <li>
-                      by <a href="#">John Smith</a>
+                      by <a href="/#">John Smith</a>
                     </li>
                   </ul>
                   <a className="white-button" href="single-post.html">

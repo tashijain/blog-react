@@ -14,7 +14,7 @@ const FreshStories = () => {
                 <div className="image-holder">
                   <img src="upload/blog/home5/a2.jpg" alt="" />
                 </div>
-                <a className="text-link" href="#">
+                <a className="text-link" href="/#">
                   Travel
                 </a>
                 <h2>
@@ -25,10 +25,10 @@ const FreshStories = () => {
                 <ul className="post-tags">
                   <li>3 days ago</li>
                   <li>
-                    <a href="#">3 comments</a>
+                    <a href="/#">3 comments</a>
                   </li>
                   <li>
-                    by <a href="#">John Smith</a>
+                    by <a href="/#">John Smith</a>
                   </li>
                 </ul>
                 <p>
@@ -48,7 +48,7 @@ const FreshStories = () => {
                 <div className="image-holder">
                   <img src="upload/blog/home5/a3.jpg" alt="" />
                 </div>
-                <a className="text-link" href="#">
+                <a className="text-link" href="/#">
                   Food
                 </a>
                 <h2>
@@ -59,10 +59,10 @@ const FreshStories = () => {
                 <ul className="post-tags">
                   <li>3 days ago</li>
                   <li>
-                    <a href="#">3 comments</a>
+                    <a href="/#">3 comments</a>
                   </li>
                   <li>
-                    by <a href="#">John Smith</a>
+                    by <a href="/#">John Smith</a>
                   </li>
                 </ul>
                 <p>
@@ -82,7 +82,7 @@ const FreshStories = () => {
                 <div className="image-holder">
                   <img src="upload/blog/home5/a4.jpg" alt="" />
                 </div>
-                <a className="text-link" href="#">
+                <a className="text-link" href="/#">
                   Food
                 </a>
                 <h2>
@@ -93,10 +93,10 @@ const FreshStories = () => {
                 <ul className="post-tags">
                   <li>3 days ago</li>
                   <li>
-                    <a href="#">3 comments</a>
+                    <a href="/#">3 comments</a>
                   </li>
                   <li>
-                    by <a href="#">John Smith</a>
+                    by <a href="/#">John Smith</a>
                   </li>
                 </ul>
                 <p>

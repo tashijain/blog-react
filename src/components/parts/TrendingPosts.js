@@ -13,7 +13,7 @@ const TrendingPosts = () => {
               <div className="news-post image-post">
                 <img src="upload/blog/home5/a1.jpg" alt="" />
                 <div className="hover-post">
-                  <a className="category-link" href="#">
+                  <a className="category-link" href="/#">
                     Lifestyle
                   </a>
                   <h2>
@@ -22,7 +22,7 @@ const TrendingPosts = () => {
                   <ul className="post-tags">
                     <li>3 days ago</li>
                     <li>
-                      <a href="#">2 comments</a>
+                      <a href="/#">2 comments</a>
                     </li>
                   </ul>
                 </div>
@@ -38,7 +38,7 @@ const TrendingPosts = () => {
                         <img src="upload/blog/home2/m2.jpg" alt="" />
                       </a>
                     </div>
-                    <a className="text-link" href="#">
+                    <a className="text-link" href="/#">
                       Travel
                     </a>
                     <h2>
@@ -46,7 +46,7 @@ const TrendingPosts = () => {
                     </h2>
                     <ul className="post-tags">
                       <li>
-                        by <a href="#">Stan Enemy</a>
+                        by <a href="/#">Stan Enemy</a>
                       </li>
                       <li>3 days ago</li>
                     </ul>
@@ -59,7 +59,7 @@ const TrendingPosts = () => {
                         <img src="upload/blog/home2/m3.jpg" alt="" />
                       </a>
                     </div>
-                    <a className="text-link" href="#">
+                    <a className="text-link" href="/#">
                       Travel
                     </a>
                     <h2>
@@ -67,7 +67,7 @@ const TrendingPosts = () => {
                     </h2>
                     <ul className="post-tags">
                       <li>
-                        by <a href="#">Stan Enemy</a>
+                        by <a href="/#">Stan Enemy</a>
                       </li>
                       <li>3 days ago</li>
                     </ul>
@@ -83,7 +83,7 @@ const TrendingPosts = () => {
                         <img src="upload/blog/home2/m6.jpg" alt="" />
                       </a>
                     </div>
-                    <a className="text-link" href="#">
+                    <a className="text-link" href="/#">
                       Food
                     </a>
                     <h2>
@@ -91,7 +91,7 @@ const TrendingPosts = () => {
                     </h2>
                     <ul className="post-tags">
                       <li>
-                        by <a href="#">Stan Enemy</a>
+                        by <a href="/#">Stan Enemy</a>
                       </li>
                       <li>2 weeks ago</li>
                     </ul>
@@ -104,7 +104,7 @@ const TrendingPosts = () => {
                         <img src="upload/blog/home2/m7.jpg" alt="" />
                       </a>
                     </div>
-                    <a className="text-link" href="#">
+                    <a className="text-link" href="/#">
                       Lifestyle
                     </a>
                     <h2>
@@ -112,7 +112,7 @@ const TrendingPosts = () => {
                     </h2>
                     <ul className="post-tags">
                       <li>
-                        by <a href="#">Stan Enemy</a>
+                        by <a href="/#">Stan Enemy</a>
                       </li>
                       <li>2 weeks ago</li>
                     </ul>

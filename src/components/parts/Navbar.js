@@ -18,7 +18,7 @@ const Navbar = () => {
         </button>
 
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
-          <a className="search-button" href="#">
+          <a className="search-button" href="/#">
             <i className="fa fa-search"></i>
           </a>
           <form className="form-search">
@@ -37,18 +37,23 @@ const Navbar = () => {
           </ul>
           <ul className="navbar-nav ml-auto social-list">
             <li>
-              <a href="#">
-                <i className="fa fa-facebook"></i>
+              <a href="/#">
+                <i className="fa fa-github fa-lg"></i>
               </a>
             </li>
             <li>
-              <a href="#">
-                <i className="fa fa-twitter"></i>
+              <a href="/#">
+                <i className="fa fa-linkedin fa-lg"></i>
               </a>
             </li>
             <li>
-              <a href="#">
-                <i className="fa fa-instagram"></i>
+              <a href="/#">
+                <i className="fa fa-facebook fa-lg"></i>
+              </a>
+            </li>
+            <li>
+              <a href="/#">
+                <i className="fa fa-instagram fa-lg"></i>
               </a>
             </li>
           </ul>
